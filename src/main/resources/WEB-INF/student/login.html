@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="../../../student/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../student/css/sign.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="sdu"><img src="../../../student/image/sdu.png" width="150"/></div>
+    <form class="form-signin" name="form_login" action="student" method="post">
+        <h4 class="text">Suleyman Demirel University</h4>
+        <label for="inputEmail" class="texttwo">Student ID</label>
+        <input type="text" name="username" id="inputEmail" class="form-control form-control-two" required="true"/>
+        <label for="inputPassword" class="texttwo">Password</label>
+        <input type="password" name="password" id="inputPassword" class="form-control form-control-two"
+               required="true"/>
+        <button class="btn btn-lg btn-primary btn-block button-sdu" type="submit">Log in</button>
+        <p class="can">Can not access my account</p>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
+

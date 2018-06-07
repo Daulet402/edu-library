@@ -1,0 +1,182 @@
+<html>
+<head>
+    <title>World</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="../../../student/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar" style="position: fixed;width: 100%;background-color: #2c3e50 !important;">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="../../../student/image/logo.svg" width="150"/></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav underline">
+                <li><a href="home.html" style="color: #fff  !important;">Home</a></li>
+                <li><a href="about.html" style="color: #fff  !important;">About</a></li>
+                <li><a href="library.html" style="color: #fff  !important;">e-Library</a></li>
+                <li class="active" style="color: #fff  !important;"><a href="world.html">World resource</a></li>
+                <li><a href="ask.html" style="color: #fff  !important;">Ask?</a></li>
+                <li><a href="logout" id="log_out">Log out</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="block-three" style="padding: 10%;">
+    <div class="container">
+        <div class="row">
+            <h1>Центр электронных ресурсов</h1>
+            <p>Предоставляет всем пользователям свободный доступ к образовательной, научной информации с использованием
+                традиционных форм, методов библиотечно-библиографического и информационно обслуживания, а также
+                инновационных информационных средств и технологий. Обслуживает пользователей в компьютерной зоне
+                читального зала, предназначенной для работы с фондом электронных документов, электронной информации
+                (электронным каталогом, библиографическими и полнотекстовыми базами данных), а также ресурсами,
+                размещенными в Интернет.</p>
+            <h3>Центр электронных ресурсов осуществляет:</h3>
+            <ul>
+                <li>Работу по качественному библиотечно-библиографическому, информационному обслуживанию пользователей,
+                    с эффективным использованием инновационных компьютерных технологий и оргтехники;
+                </li>
+                <li>Формирование у пользователей ЦЭР основ библиотечно-библиографической, информационной культуры,
+                    обучение навыкам работы с различными источниками информации.
+                </li>
+            </ul>
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/rmb.png"/>
+                <h3>Республиканская межвузовская электронная библиотека</h3>
+                <strong>Сайт: </strong><a href="https://rmeb.kz">rmeb.kz</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>Обеспечивает эффективный способ поиска и доступа к миллионам полнотекстовых научных статей. Сайт доступен для преподавателей, студентов, учёных, сотрудников лабораторий, новаторов в сфере науки и технологий, работающих в исследовательских институтах и университетах.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/virt.jpg"/>
+                <h3>Виртуальная научная библиотека (ВНБ)</h3>
+                <strong>Сайт: </strong><a href="https://kazakhstanvsl.org">kazakhstanvsl.org</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>Обеспечивает эффективный способ поиска и доступа к миллионам полнотекстовых научных статей. Сайт доступен для преподавателей, студентов, учёных, сотрудников лабораторий, новаторов в сфере науки и технологий, работающих в исследовательских институтах и университетах.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/ebsco.png"/>
+                <h3>EBSCO Host Academic Collection </h3>
+                <strong>Сайт: </strong><a href="https://search.ebscohost.com">search.ebscohost.com</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>EBSCO Information Services обеспечивает полную и оптимизированную исследований решение, состоящий из научно-исследовательских баз данных, электронных книг и электронных журналов - все в сочетании с самыми мощными службами обнаружения и управления ресурсами с целью информационного обеспечения и развития коллекции потребностей библиотек и других учреждений и максимизировать поиск опыт для исследователей и других конечных пользователей. EBSCO предлагает более 375 полнотекстовых и вторичных исследований баз данных и более 515000 электронных книг плюс услуги управления подпиской на 360000 электронные журналы, электронный журнал пакеты и печатные журналы.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета. Для удаленного доступа пришлите заявку на <a
+                    href="https://rectorate@sdu.edu.kz">rectorate@sdu.edu.kz</a></span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/ebscoworld.png"/>
+                <h3>World Public Library </h3>
+                <strong>Сайт: </strong><a href="https://search.ebscohost.com">search.ebscohost.com</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>На сегодня в World Public Library Collection более 3,000,000+ PDF книг на 100+ языков, содержащих 125 из лучших электронных книг и eDocument коллекций, опубликованных в Интернете. Все электронные книги в формате PDF, и все аудио электронные книги в формате MP3. Эти форматы были разработаны специально для кросс-платформенной совместимости со всеми ПК, ноутбуки, КПК, Kindle DX, Kindle 3 IPad / плеерах, для чтения книг и смартфонов.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета. Для удаленного доступа пришлите заявку на <a
+                    href="https://rectorate@sdu.edu.kz">rectorate@sdu.edu.kz</a></span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/thomson.png"/>
+                <h3>Thomson Reuters: Web of Knowledge </h3>
+                <strong>Сайт: </strong><a href="https://apps.webofknowledge.com">apps.webofknowledge.com</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>Мультидисциплинарная электронная научно-исследовательская платформа, которая позволяет пользователям производить поиск среди множества баз данных одновременно через гибкую, мощную поисковую систему, получать статьи и ссылки на веб страницы, которые могут быть полезными для исследователей.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета.</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/springer.png"/>
+                <h3>SpringerLink </h3>
+                <strong>Сайт: </strong><a href="https://link.springer.com">link.springer.com</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>SpringerLink является одним из ведущих провайдеров информационных услуг, журналов и книг по науке, технике и медицине. SpringerLink это ценный информационный ресурс для исследователей, ученых, преподавателей, студентов, представителей бизнес-структур и тех организаций, для которых доступ к знаниям является критически необходимым условием для успешной деятельности. Сегодня SpringerLink предоставляет доступ к свыше 1500 наименованиям журналов в электронной форме по науке, технике и медицине.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета. Для удаленного доступа пришлите заявку на <a
+                    href="https://rectorate@sdu.edu.kz">rectorate@sdu.edu.kz</a></span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/elsevier.png"/>
+                <h3>Elsevier </h3>
+                <strong>Сайт: </strong><a href="https://apps.webofknowledge.com">apps.webofknowledge.com</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>Один из крупнейших издательских домов мира, который ежегодно выпускает около четверти всех статей из издаваемых в мире научных журналов. Основан в 1880 году в Амстердаме (Нидерланды). «Elsevier» является ведущим в мире коммерческим издателем научно-технической информации, выпускающим более 2000 научных журналов и представляющим доступ к 10,2 миллионам научных статей на своём электронном интернет-портале «ScienceDirect». Elsevier» обслуживает научными данными около 4500 организаций и университетов из 180 стран мира.</span><br/>
+                <strong>Доступ: </strong><span>Используя IP адреса университета.</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/zbmath.png"/>
+                <h3>zbMath </h3>
+                <strong>Сайт: </strong><a href="https://zbmath.org">zbmath.org</a><br/>
+                <strong>Направление: </strong><span>Математика</span><br/>
+                <strong>Описание: </strong><span>База данные zbMATH содержит более 3 миллионов библиографических записей с обзорами или рефератами в настоящее время взят из более чем 3000 журналов и изданий, и 170000 книг. Покрытие начинается в 1826 году и завершено в 1868 году до настоящего времени путем интеграции «Jahrbuch über die Fortschritte der Mathematik» базы данных.</span><br/>
+                <strong>Доступ: </strong><span>Открытый доступ</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/doaj.png"/>
+                <h3>DOAJ </h3>
+                <strong>Сайт: </strong><a href="https://doaj.org">doaj.org</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>DOAJ это директория, предлагающая свободный (бесплатный) доступ к свыше 1500 научных и академических журналов в электронном формате по всем направлениям.</span><br/>
+                <strong>Доступ: </strong><span>Открытый доступ</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/doab.png"/>
+                <h3>DOAB </h3>
+                <strong>Сайт: </strong><a href="https://www.doabooks.org">doabooks.org</a><br/>
+                <strong>Направление: </strong><span>Междисциплинарная база данных</span><br/>
+                <strong>Описание: </strong><span>Основной целью DOAB является повышение понятности открытых книг доступа. Академические Издатели предлагается представить метаданные своих открытых книг Доступ к DOAB. Метаданные будут заготавливаемыми в целях максимального распространения, видимость и влияние. Накопители могут интегрировать записи в своих коммерческих услуг и библиотеки могут интегрировать каталог в свои онлайновые каталоги, помогая ученым и студентам открыть для себя книги. Каталог будет открыт для всех издателей, которые публикуют научные, рецензируемых книг в открытом доступе и должна содержать столько книг, сколько это возможно, при условии, что эти публикации в открытом доступе и отвечают академическим стандартам.</span><br/>
+                <strong>Доступ: </strong><span>Открытый доступ</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/asee.png"/>
+                <h3>ASEE </h3>
+                <strong>Сайт: </strong><a href="http://www.asee.org">asee.org</a><br/>
+                <strong>Направление: </strong><span>Engineering</span><br/>
+                <strong>Описание: </strong><span>В погоне за успехов в учебе, ASEE разрабатывает политику и программы, которые расширяют профессиональные возможности для членов инженерного факультета, а также способствует деятельности, способствующей увеличению регистраций студентов в технических и инженерных технологий, колледжей и университетов. Сильная связь и сотрудничество с национальными и международными организациями, дальнейшие успехи в миссии ASEE.</span><br/>
+                <strong>Доступ: </strong><span>Открытый доступ</span>
+            </div>
+
+            <div style="margin-bottom:30px;">
+                <img src="../../../student/image/polpred.png"/>
+                <h3>Polpred.com </h3>
+                <strong>Сайт: </strong><a href="http://polpred.com">polpred.com</a><br/>
+                <strong>Направление: </strong><span>СМИ. Масс медиа</span><br/>
+                <strong>Описание: </strong><span>Обзор СМИ. Архив важных публикаций собирается вручную. База данных с рубрикатором: 53 отрасли / 600 источников / 8 федеральных округов РФ / 235 стран и территорий / главные материалы / статьи и интервью 13000 первых лиц. Ежедневно тысяча новостей, полный текст на русском языке. Миллионы сюжетов информагентств и деловой прессы за 15 лет. Polpred.com открыт со всех компьютеров библиотеки и внутренней сети.</span><br/>
+                <strong>Доступ: </strong><span>Полный доступ до 15 октября 2018 года</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer">
+    <div class="container footer">
+        <p>© 2016 Suleyman Demirel University.</p>
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+# Gradle
+.gradle
+gradle.properties
+/gradle/wrapper
+/gradlew
+/gradlew.bat
+/build/
+/*/build/
+/out/*
+src/main/resources/app.datasource.properties
+.idea
